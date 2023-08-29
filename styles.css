@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+  }
+  li {
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+	  
+  }
+  video {
+    max-width: 400px;
+  }
